@@ -1,0 +1,40 @@
+.contact-container {
+    padding: 50px 0;
+  }
+
+  .contact-info {
+    animation: fade-in 1s ease-in-out;
+  }
+
+  .contact-form {
+    animation: fade-in 1.5s ease-in-out;
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-list-item {
+    margin-bottom: 20px;
+  }
+
+  .contact-list-item i {
+    font-size: 30px;
+    color: #3498db;
+    margin-right: 10px;
+  }
+
+  .contact-list-item p {
+    display: inline-block;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

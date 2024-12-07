@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(45deg, rgb(49, 30, 92) 0%, rgb(49, 30, 92) 23%,rgb(44, 62, 97) 23%, rgb(44, 62, 97) 41%,rgb(39, 94, 103) 41%, rgb(39, 94, 103) 53%,rgb(35, 126, 108) 53%, rgb(35, 126, 108) 67%,rgb(30, 158, 113) 67%, rgb(30, 158, 113) 79%,rgb(25, 190, 119) 79%, rgb(25, 190, 119) 100%);
+    color: #fff;
+    padding: 10ox 20px;
+    border-bottom: 1px solid #282c34;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;    
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #0dff00;
+    transition: all 0.3s ease-in-out;
+   }
+
+.navbar-toggler-icon {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon:hover {
+    color: #0dff00;
+    transition: all 0.3s ease-in-out;   
+}
+.navbar-toggler{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #fff;
+}
+
+
