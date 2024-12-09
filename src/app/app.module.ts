@@ -18,6 +18,7 @@ import { AllRecordComponent } from './Dashboard/all-record/all-record.component'
 import { AddRecordComponent } from './Dashboard/add-record/add-record.component';
 import { ProfileComponent } from './Dashboard/profile/profile.component';
 import { SettingComponent } from './Dashboard/setting/setting.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { SettingComponent } from './Dashboard/setting/setting.component';
     RouterModule.forRoot([
       { path: 'dashboard', component: DashboardComponent },
       { path: '', component: LoginFormComponent }
-    ])
+    ]),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

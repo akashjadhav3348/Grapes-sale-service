@@ -10,7 +10,7 @@ export class NavComponent {
   constructor(public router: Router) {}
 
   // Determine if the navbar should be shown
-  shouldShowNavbar(): boolean {
+  shouldShowNavbar(): boolean {5
     return this.router.url !== '/dashboard';
   }
 
